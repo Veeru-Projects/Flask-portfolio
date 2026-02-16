@@ -9,6 +9,8 @@ from email.mime.multipart import MIMEMultipart
 from flask_cors import CORS
 # from OpenSSL import SSL
 
+#load_dotenv()
+
 #context = SSL.Context(SSL.TLSv1_2_METHOD)
 #context.use_privatekey_file('/home/ubuntu/private.key')
 #context.use_certificate_file('/home/ubuntu/certificate.crt')
@@ -41,13 +43,13 @@ def contact():
 def submit():
     if request.method == 'POST':
         # Get form data
-        recipient_email = os.environ.get('recipient_email')
-        #print(recipient_email)
+        recipient_email = "mothukuriveerender06@gmail.com"
+        print(recipient_email)
         # Your email configuration
-        sender_email = os.environ.get('sender_email')
-        #print(sender_email)
-        sender_password = os.environ.get('sender_password')
-        #print(sender_password)
+        sender_email = "veerender.devops08@gmail.com"
+        print(sender_email)
+        sender_password = "pojt fyzi ourm bllt"
+        print(sender_password)
         subject = request.form['subject']
         form_data = {
             'name': request.form['name'],
@@ -55,7 +57,7 @@ def submit():
             'mobile': request.form['mobile'],
             'message': request.form['message']
         }
-        #print("Form Data:", form_data)
+        print("Form Data:", form_data)
         log_message = f"Values for email {recipient_email}, {sender_email}, {sender_password}"
         app.logger.info(log_message)
         # Create the email message
@@ -64,14 +66,18 @@ def submit():
         message['To'] = recipient_email
         message['Subject'] = subject
         text_content = f"name: {form_data['name']}\nemail: {form_data['email']}\nmobile: {form_data['mobile']}\nmessage: {form_data['message']}"
-        message.attach(MIMEText(text_content, 'plain'))
-
+        message.attach(MIMEText(text_content, 'plain', 'utf-8'))
+        
+        context = ssl.create_default_context()
         # Connect to the SMTP server and send the email
-        with smtplib.SMTP('smtp.gmail.com', 587) as server:
-            server.starttls()
+        with smtplib.SMTP_SSL('smtp.googlemail.com', 465) as server:
+            print(recipient_email, sender_email, sender_password)
+            server.ehlo()
+            server.starttls(context=context)
+            server.ehlo()
             server.login(sender_email, sender_password)
             server.sendmail(sender_email, recipient_email, message.as_string())
-        return redirect('/contact')
+            return redirect('/contact')
     return 'Error'
 
 
@@ -79,4 +85,4 @@ if __name__ == '__main__':
     # context = ('/etc/letsencrypt/live/veerender-mothukuri.com/fullchain.pem', '/etc/letsencrypt/live/veerender-mothukuri.com/privkey.pem')
     import logging
     logging.basicConfig(filename='error.log',level=logging.DEBUG)
-    # app.run(host='0.0.0.0', port='443', debug=True)
+    app.run(host='0.0.0.0', port='5000', debug=True)
