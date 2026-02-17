@@ -43,12 +43,12 @@ def contact():
 def submit():
     if request.method == 'POST':
         # Get form data
-        recipient_email = "mothukuriveerender06@gmail.com"
+        recipient_email = "xxxxxxxx"
         print(recipient_email)
         # Your email configuration
-        sender_email = "veerender.devops08@gmail.com"
+        sender_email = "xxxxxxx"
         print(sender_email)
-        sender_password = "pojt fyzi ourm bllt"
+        sender_password = "xxxxxxxxx"
         print(sender_password)
         subject = request.form['subject']
         form_data = {
