@@ -106,9 +106,28 @@ table.center {
     padding: 8px;
   }
   
-  tr:nth-child(even) {
+  #tr:nth-child(even) {
     background-color: #dddddd;
   }
+
+/* styles.css */
+.about-dark-bg {
+    background-color: #222;
+    color: #fff;
+    min-height: 100vh;
+    padding-bottom: 2rem;
+}
+
+.about-dark-bg .social-icons a {
+    color: #fff !important; /* Makes icons white */
+    font-size: 2rem;
+    margin-right: 15px;
+    transition: color 0.2s;
+}
+
+.about-dark-bg .social-icons a:hover {
+    color: #4caf50 !important; /* Optional: highlight on hover */
+}
   
   /* .text-left {
     padding-left: 16%;

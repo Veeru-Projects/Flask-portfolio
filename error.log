@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [2024-10-07 18:09:54 +0000] [5981] [DEBUG] Current configuration:
   config: ./gunicorn.conf.py
   wsgi_app: None
@@ -263018,3 +263019,842 @@ SystemExit: 1
 [2026-02-16 10:05:08 -0500] [539796] [DEBUG] GET /2.php
 [2026-02-16 10:05:08 -0500] [3706441] [DEBUG] GET /input.php
 [2026-02-16 10:05:10 -0500] [539796] [DEBUG] GET /aaa.php
+=======
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.154:5002
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 992-127-170
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.idea/misc.xml", inode=24373182, flags=10800, id=42156496): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.idea/misc.xml.tmp", inode=24374603, flags=19900, id=42156500): is_coalesced, is_created, is_file, is_modified, is_renamed, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.idea/misc.xml", inode=24374603, flags=10800, id=42156501): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.idea/misc.xml~", inode=24373182, flags=10a00, id=42156504): is_coalesced, is_file, is_removed, is_renamed
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.idea/misc.xml~", inode=24373182, flags=10a00, id=42156504)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.idea/misc.xml', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.idea/misc.xml~', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.idea', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.idea', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.idea/misc.xml~', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.idea', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.idea/misc.xml.tmp', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.idea', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.idea/misc.xml.tmp', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.idea/misc.xml", inode=24374603, flags=10800, id=42156501)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.idea/misc.xml.tmp', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.idea/misc.xml', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.idea', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.idea', is_directory=True>
+INFO:werkzeug:127.0.0.1 - - [07/May/2024 23:10:17] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2024 23:10:17] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2024 23:10:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2024 23:10:17] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2024 23:10:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2024 23:10:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2024 23:10:21] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2024 23:10:21] "GET /static/images/FB8460EF-3F4C-49EB-8A64-1F059E691032.JPEG HTTP/1.1" 200 -
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock", inode=24374660, flags=10300, id=42157426): is_coalesced, is_created, is_file, is_removed
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/28/327e0c286594fb2e4fd7668b928e52757ce33d", inode=24374701, flags=110100, id=42158120): is_created, is_file, is_hardlink
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/28", inode=24374700, flags=20500, id=42158123): is_created, is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/28/tmp_obj_FujNme", inode=24374701, flags=111300, id=42158126): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock", inode=24374699, flags=11900, id=42158132): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374699, flags=10800, id=42158133): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24372615, flags=10800, id=42158134): is_file, is_renamed
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/28/327e0c286594fb2e4fd7668b928e52757ce33d', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/28', is_directory=True>
+DEBUG:fsevents:queue_event <DirCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/28', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/28', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/28/tmp_obj_FujNme', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/28/tmp_obj_FujNme', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/28', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374699, flags=10800, id=42158133)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/9f/75742b9d0a7c42e657e2a0e5799041d881b2a5", inode=24374733, flags=110100, id=42158555): is_created, is_file, is_hardlink
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/9f", inode=24374732, flags=20500, id=42158558): is_created, is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/9f/tmp_obj_DvSn05", inode=24374733, flags=111300, id=42158561): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock", inode=24374731, flags=11900, id=42158567): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374731, flags=10800, id=42158568): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374699, flags=10800, id=42158569): is_file, is_renamed
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/9f/75742b9d0a7c42e657e2a0e5799041d881b2a5', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/9f', is_directory=True>
+DEBUG:fsevents:queue_event <DirCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/9f', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/9f', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/9f/tmp_obj_DvSn05', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/9f/tmp_obj_DvSn05', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/9f', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374731, flags=10800, id=42158568)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/53/88454151db44880423d1dcb0e7963b6d31840b", inode=24374742, flags=110100, id=42158640): is_created, is_file, is_hardlink
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/53", inode=24374741, flags=20500, id=42158643): is_created, is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/53/tmp_obj_fWA4eF", inode=24374742, flags=111300, id=42158646): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock", inode=24374740, flags=11900, id=42158652): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374740, flags=10800, id=42158653): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374731, flags=10800, id=42158654): is_file, is_renamed
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/53/88454151db44880423d1dcb0e7963b6d31840b', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/53', is_directory=True>
+DEBUG:fsevents:queue_event <DirCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/53', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/53', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/53/tmp_obj_fWA4eF', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/53/tmp_obj_fWA4eF', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/53', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374740, flags=10800, id=42158653)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock", inode=24374750, flags=11900, id=42158798): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374750, flags=10800, id=42158799): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374740, flags=10800, id=42158800): is_file, is_renamed
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374750, flags=10800, id=42158799)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock", inode=24374757, flags=10300, id=42158918): is_coalesced, is_created, is_file, is_removed
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/52/15104984c2b59d96bdb6212891c39b1cd6ee71", inode=24374776, flags=110100, id=42159258): is_created, is_file, is_hardlink
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/52", inode=24374775, flags=20500, id=42159261): is_created, is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/52/tmp_obj_nqotfV", inode=24374776, flags=111300, id=42159264): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/0c/56f045d196ea56828598c6b0f22309109f677e", inode=24374780, flags=110100, id=42159276): is_created, is_file, is_hardlink
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/0c", inode=24374779, flags=20500, id=42159279): is_created, is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/0c/tmp_obj_P7SvDm", inode=24374780, flags=111300, id=42159282): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/f9/19f97eeb65e0df6b4b69a458504b18e5dfead6", inode=24374784, flags=110100, id=42159294): is_created, is_file, is_hardlink
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/f9", inode=24374783, flags=20500, id=42159297): is_created, is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/f9/tmp_obj_s6Aiqk", inode=24374784, flags=111300, id=42159300): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/26/e07ac3efbe37494f0d8db4bcac205bf9ab6c6b", inode=24374788, flags=110100, id=42159312): is_created, is_file, is_hardlink
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/26", inode=24374787, flags=20500, id=42159315): is_created, is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/26/tmp_obj_ztyK2V", inode=24374788, flags=111300, id=42159318): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/23/8e06c5bd1da4a7668b55821c43cf093954bbac", inode=24374791, flags=110100, id=42159327): is_created, is_file, is_hardlink
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/23", inode=16845997, flags=20400, id=42159330): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/23/tmp_obj_5fhG7q", inode=24374791, flags=111300, id=42159333): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock", inode=24374774, flags=11900, id=42159339): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374774, flags=10800, id=42159340): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374750, flags=10800, id=42159341): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/COMMIT_EDITMSG", inode=16721006, flags=11400, id=42159347): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/0e/6735c52128d0e4ceaf564cd397bc7da607c0ff", inode=24374795, flags=110100, id=42159359): is_created, is_file, is_hardlink
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/0e", inode=24374794, flags=20500, id=42159362): is_created, is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/0e/tmp_obj_fk524f", inode=24374795, flags=111300, id=42159365): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/logs/HEAD", inode=16719875, flags=11000, id=42159377): is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/logs/refs/heads/main", inode=16719877, flags=11000, id=42159380): is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/refs/heads/main.lock", inode=24374799, flags=11900, id=42159383): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/refs/heads/main", inode=24374799, flags=10800, id=42159384): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/refs/heads/main", inode=24372292, flags=10800, id=42159385): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/HEAD.lock", inode=24374798, flags=10300, id=42159388): is_coalesced, is_created, is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/maintenance.lock", inode=24374800, flags=10300, id=42159394): is_coalesced, is_created, is_file, is_removed
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/52/15104984c2b59d96bdb6212891c39b1cd6ee71', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/52', is_directory=True>
+DEBUG:fsevents:queue_event <DirCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/52', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/52', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/52/tmp_obj_nqotfV', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/52/tmp_obj_nqotfV', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/52', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/0c/56f045d196ea56828598c6b0f22309109f677e', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/0c', is_directory=True>
+DEBUG:fsevents:queue_event <DirCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/0c', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/0c', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/0c/tmp_obj_P7SvDm', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/0c/tmp_obj_P7SvDm', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/0c', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/f9/19f97eeb65e0df6b4b69a458504b18e5dfead6', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/f9', is_directory=True>
+DEBUG:fsevents:queue_event <DirCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/f9', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/f9', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/f9/tmp_obj_s6Aiqk', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/f9/tmp_obj_s6Aiqk', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/f9', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/26/e07ac3efbe37494f0d8db4bcac205bf9ab6c6b', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/26', is_directory=True>
+DEBUG:fsevents:queue_event <DirCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/26', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/26', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/26/tmp_obj_ztyK2V', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/26/tmp_obj_ztyK2V', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/26', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/23/8e06c5bd1da4a7668b55821c43cf093954bbac', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/23', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/23', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/23/tmp_obj_5fhG7q', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/23/tmp_obj_5fhG7q', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/23', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374774, flags=10800, id=42159340)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/COMMIT_EDITMSG', is_directory=False>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/0e/6735c52128d0e4ceaf564cd397bc7da607c0ff', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/0e', is_directory=True>
+DEBUG:fsevents:queue_event <DirCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/0e', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/0e', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/0e/tmp_obj_fk524f', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/0e/tmp_obj_fk524f', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/0e', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/logs/HEAD', is_directory=False>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/logs/refs/heads/main', is_directory=False>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/refs/heads/main.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/refs/heads', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/refs/heads/main.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/refs/heads/main", inode=24374799, flags=10800, id=42159384)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/refs/heads/main.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/refs/heads/main', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/refs/heads', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/refs/heads', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/refs/heads/main', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/refs/heads', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/HEAD.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/HEAD.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/maintenance.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/maintenance.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.idea/workspace.xml", inode=24374876, flags=18900, id=42160757): is_coalesced, is_created, is_file, is_renamed, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.idea/workspace.xml.tmp", inode=24374877, flags=19900, id=42160761): is_coalesced, is_created, is_file, is_modified, is_renamed, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.idea/workspace.xml", inode=24374877, flags=10800, id=42160762): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.idea/workspace.xml~", inode=24374876, flags=10a00, id=42160765): is_coalesced, is_file, is_removed, is_renamed
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.idea/workspace.xml', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.idea', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.idea/workspace.xml', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.idea/workspace.xml~", inode=24374876, flags=10a00, id=42160765)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.idea/workspace.xml', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.idea/workspace.xml~', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.idea', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.idea', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.idea/workspace.xml~', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.idea', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.idea/workspace.xml.tmp', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.idea', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.idea/workspace.xml.tmp', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.idea/workspace.xml", inode=24374877, flags=10800, id=42160762)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.idea/workspace.xml.tmp', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.idea/workspace.xml', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.idea', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.idea', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock", inode=24374890, flags=10300, id=42161004): is_coalesced, is_created, is_file, is_removed
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/FETCH_HEAD", inode=16845961, flags=10400, id=42161007): is_file, is_inode_meta_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/FETCH_HEAD', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/FETCH_HEAD", inode=16845961, flags=11400, id=42161024): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/maintenance.lock", inode=24374892, flags=10300, id=42161030): is_coalesced, is_created, is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock", inode=24374893, flags=10300, id=42161036): is_coalesced, is_created, is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge", inode=24374894, flags=20100, id=42161039): is_created, is_directory
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/interactive", inode=24374895, flags=10100, id=42161042): is_created, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/head-name", inode=24374896, flags=11100, id=42161048): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/onto", inode=24374897, flags=11100, id=42161054): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/orig-head", inode=24374898, flags=11100, id=42161060): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/drop_redundant_commits", inode=24374899, flags=10100, id=42161063): is_created, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/no-reschedule-failed-exec", inode=24374900, flags=10100, id=42161066): is_created, is_file
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/FETCH_HEAD', is_directory=False>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/maintenance.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/maintenance.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <DirCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/interactive', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/head-name', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/head-name', is_directory=False>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/onto', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/onto', is_directory=False>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/orig-head', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/orig-head', is_directory=False>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/drop_redundant_commits', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/no-reschedule-failed-exec', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo.lock", inode=24374901, flags=11900, id=42161075): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo.backup.lock", inode=24374902, flags=11900, id=42161085): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo.backup", inode=24374902, flags=10800, id=42161086): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo.lock", inode=24374903, flags=11900, id=42161095): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo", inode=24374903, flags=10800, id=42161096): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo", inode=24374901, flags=10800, id=42161097): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock", inode=24374904, flags=10100, id=42161100): is_created, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/load.js", inode=18205181, flags=10200, id=42161103): is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/static/images/FB8460EF-3F4C-49EB-8A64-1F059E691032.JPEG", inode=18957795, flags=10200, id=42161106): is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/templates/portfolio.html", inode=16720196, flags=10200, id=42161109): is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/test.py", inode=18535412, flags=10200, id=42161112): is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/main.py", inode=16846028, flags=10200, id=42161115): is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/main.py", inode=24374905, flags=11100, id=42161121): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/newrelic.ini", inode=24374906, flags=10100, id=42161124): is_created, is_file
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo", inode=24374901, flags=10800, id=42161097)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo.backup.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo.backup.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo.backup", inode=24374902, flags=10800, id=42161086)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo.backup.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo.backup', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo", inode=24374903, flags=10800, id=42161096)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/load.js', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/static/images/FB8460EF-3F4C-49EB-8A64-1F059E691032.JPEG', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/static/images', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/portfolio.html', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/test.py', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/main.py', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/main.py', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/main.py', is_directory=False>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/newrelic.ini', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/newrelic.ini", inode=24374906, flags=11100, id=42161127): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/static/Resume.pdf", inode=16720192, flags=10200, id=42161130): is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/static/Resume.pdf", inode=24374907, flags=11100, id=42161136): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/static/css/style.css", inode=16720188, flags=10200, id=42161139): is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/static/css/style.css", inode=24374908, flags=11100, id=42161145): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/static/images/B330224B-2129-40DD-8C28-062B1B221BF7.jpeg", inode=24374909, flags=11100, id=42161151): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/templates/about.html", inode=16720199, flags=10200, id=42161154): is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/templates/about.html", inode=24374910, flags=11100, id=42161160): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/templates/contact.html", inode=16720200, flags=10200, id=42161163): is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/templates/contact.html", inode=24374911, flags=11100, id=42161169): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/templates/navbar.html", inode=16720197, flags=10200, id=42161172): is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/templates/navbar.html", inode=24374912, flags=11100, id=42161178): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/templates/skills.html", inode=24374913, flags=11100, id=42161184): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/wsgi.py", inode=24374914, flags=11100, id=42161190): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock", inode=24374904, flags=11900, id=42161196): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374774, flags=10800, id=42161198): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/ORIG_HEAD.lock", inode=24374915, flags=11900, id=42161207): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/ORIG_HEAD", inode=24374915, flags=10800, id=42161208): is_file, is_renamed
+INFO:werkzeug: * Detected change in '/Users/madhurigorantla/github/Flask-portfolio/test.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/ORIG_HEAD", inode=16846023, flags=10800, id=42161209): is_file, is_renamed
+INFO:werkzeug: * Detected change in '/Users/madhurigorantla/github/Flask-portfolio/main.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/logs/HEAD", inode=16719875, flags=11000, id=42161218): is_file, is_modified
+INFO:werkzeug: * Detected change in '/Users/madhurigorantla/github/Flask-portfolio/main.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/HEAD.lock", inode=24374916, flags=11900, id=42161221): is_coalesced, is_created, is_file, is_modified, is_renamed
+INFO:werkzeug: * Detected change in '/Users/madhurigorantla/github/Flask-portfolio/main.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/HEAD", inode=24374916, flags=10800, id=42161222): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/HEAD", inode=16719872, flags=10800, id=42161223): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock", inode=24374917, flags=11900, id=42161232): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374904, flags=10800, id=42161234): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/end", inode=24374918, flags=11100, id=42161240): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock", inode=24374919, flags=11900, id=42161249): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374919, flags=10800, id=42161250): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374917, flags=10800, id=42161251): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo.lock", inode=24374920, flags=11900, id=42161260): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo", inode=24374920, flags=10800, id=42161261): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo", inode=24374903, flags=10800, id=42161262): is_file, is_renamed
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/newrelic.ini', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/static/Resume.pdf', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/static', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/static/Resume.pdf', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/static', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/static/Resume.pdf', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/static/css/style.css', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/static/css', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/static/css/style.css', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/static/css', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/static/css/style.css', is_directory=False>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/static/images/B330224B-2129-40DD-8C28-062B1B221BF7.jpeg', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/static/images', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/static/images/B330224B-2129-40DD-8C28-062B1B221BF7.jpeg', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/about.html', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/about.html', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/about.html', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/contact.html', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/contact.html', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/contact.html', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/navbar.html', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/navbar.html', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/navbar.html', is_directory=False>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/skills.html', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/skills.html', is_directory=False>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/wsgi.py', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio', is_directory=True>
+INFO:werkzeug: * Detected change in '/Users/madhurigorantla/github/Flask-portfolio/wsgi.py', reloading
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/wsgi.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/madhurigorantla/github/Flask-portfolio/wsgi.py', reloading
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374904, flags=10800, id=42161234)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/ORIG_HEAD.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/ORIG_HEAD.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/ORIG_HEAD", inode=24374915, flags=10800, id=42161208)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/ORIG_HEAD.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/ORIG_HEAD', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/ORIG_HEAD', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/logs/HEAD', is_directory=False>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/HEAD.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/HEAD.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/HEAD", inode=24374916, flags=10800, id=42161222)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/HEAD.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/HEAD', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/HEAD', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374917, flags=10800, id=42161251)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/end', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/end', is_directory=False>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374919, flags=10800, id=42161250)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo", inode=24374920, flags=10800, id=42161261)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/done", inode=24374921, flags=11100, id=42161268): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/msgnum", inode=24374922, flags=11100, id=42161274): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/REBASE_HEAD.lock", inode=24374923, flags=10300, id=42161283): is_coalesced, is_created, is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/packed-refs.lock", inode=24374924, flags=10300, id=42161286): is_coalesced, is_created, is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/author-script.lock", inode=24374925, flags=11900, id=42161295): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/author-script", inode=24374925, flags=10800, id=42161296): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock", inode=24374926, flags=10100, id=42161299): is_created, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/30/2622f58cec9293eacfb23dc77bde9386ec3898", inode=24374928, flags=110100, id=42161311): is_created, is_file, is_hardlink
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/30", inode=24374927, flags=20500, id=42161314): is_created, is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/30/tmp_obj_OWxHwz", inode=24374928, flags=111300, id=42161317): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/67/tmp_obj_P4rU45", inode=24374931, flags=10100, id=42161320): is_created, is_file
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/done', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/done', is_directory=False>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/msgnum', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/msgnum', is_directory=False>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/REBASE_HEAD.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/REBASE_HEAD.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/packed-refs.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/packed-refs.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/author-script.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/author-script.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/author-script", inode=24374925, flags=10800, id=42161296)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/author-script.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/author-script', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/30/2622f58cec9293eacfb23dc77bde9386ec3898', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/30', is_directory=True>
+DEBUG:fsevents:queue_event <DirCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/30', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/30', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/30/tmp_obj_OWxHwz', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/30/tmp_obj_OWxHwz', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/30', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/67/tmp_obj_P4rU45', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/67', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/67/2640c66327bcf5054cf30bc46260e6724812a0", inode=24374931, flags=110100, id=42161326): is_created, is_file, is_hardlink
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/67", inode=16845985, flags=20400, id=42161329): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/67/tmp_obj_P4rU45", inode=24374931, flags=111300, id=42161332): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/load.js", inode=24374934, flags=11100, id=42161338): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/static/images/FB8460EF-3F4C-49EB-8A64-1F059E691032.JPEG", inode=24374935, flags=10100, id=42161341): is_created, is_file
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/67', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/67/tmp_obj_P4rU45', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/67/tmp_obj_P4rU45', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/67', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/load.js', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/load.js', is_directory=False>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/static/images/FB8460EF-3F4C-49EB-8A64-1F059E691032.JPEG', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/static/images', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/static/images/FB8460EF-3F4C-49EB-8A64-1F059E691032.JPEG", inode=24374935, flags=11100, id=42161344): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/templates/portfolio.html", inode=24374936, flags=11100, id=42161350): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/test.py", inode=24374937, flags=11100, id=42161356): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/AUTO_MERGE", inode=24374938, flags=11100, id=42161362): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock", inode=24374926, flags=11900, id=42161368): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374926, flags=10800, id=42161369): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374919, flags=10800, id=42161370): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/MERGE_MSG.lock", inode=24374939, flags=11900, id=42161379): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/MERGE_MSG", inode=24374939, flags=10800, id=42161380): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/CHERRY_PICK_HEAD.lock", inode=24374940, flags=11900, id=42161389): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/CHERRY_PICK_HEAD", inode=24374940, flags=10800, id=42161390): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock", inode=24374941, flags=10300, id=42161396): is_coalesced, is_created, is_file, is_removed
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/static/images/FB8460EF-3F4C-49EB-8A64-1F059E691032.JPEG', is_directory=False>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/portfolio.html', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/portfolio.html', is_directory=False>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/test.py', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/test.py', is_directory=False>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/AUTO_MERGE', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/AUTO_MERGE', is_directory=False>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/madhurigorantla/github/Flask-portfolio/test.py', reloading
+INFO:werkzeug: * Detected change in '/Users/madhurigorantla/github/Flask-portfolio/test.py', reloading
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374926, flags=10800, id=42161369)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/MERGE_MSG.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/MERGE_MSG.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/MERGE_MSG", inode=24374939, flags=10800, id=42161380)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/MERGE_MSG.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/MERGE_MSG', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/CHERRY_PICK_HEAD.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/CHERRY_PICK_HEAD.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/CHERRY_PICK_HEAD", inode=24374940, flags=10800, id=42161390)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/CHERRY_PICK_HEAD.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/CHERRY_PICK_HEAD', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/d6/e0e7c320fcd0528a3f38b11de69cd7bf907a00", inode=24374943, flags=110100, id=42161408): is_created, is_file, is_hardlink
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/d6", inode=24374942, flags=20500, id=42161411): is_created, is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/d6/tmp_obj_0B2EPe", inode=24374943, flags=111300, id=42161414): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/logs/HEAD", inode=16719875, flags=11000, id=42161423): is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/HEAD.lock", inode=24374946, flags=11900, id=42161426): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/HEAD", inode=24374946, flags=10800, id=42161427): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/HEAD", inode=24374916, flags=10800, id=42161428): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/CHERRY_PICK_HEAD", inode=24374940, flags=10a00, id=42161437): is_coalesced, is_file, is_removed, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/CHERRY_PICK_HEAD.lock", inode=24374947, flags=10300, id=42161440): is_coalesced, is_created, is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/packed-refs.lock", inode=24374948, flags=10300, id=42161443): is_coalesced, is_created, is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/MERGE_MSG", inode=24374939, flags=10a00, id=42161446): is_coalesced, is_file, is_removed, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/rewritten-list", inode=24374950, flags=11100, id=42161458): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/rewritten-pending", inode=24374949, flags=11300, id=42161461): is_coalesced, is_created, is_file, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo.lock", inode=24374951, flags=10900, id=42161467): is_coalesced, is_created, is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo", inode=24374951, flags=10800, id=42161468): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo", inode=24374920, flags=10800, id=42161469): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/done", inode=24374921, flags=11100, id=42161472): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/msgnum", inode=24374922, flags=11500, id=42161478): is_created, is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/author-script", inode=24374925, flags=10a00, id=42161481): is_coalesced, is_file, is_removed, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/AUTO_MERGE", inode=24374938, flags=11300, id=42161484): is_coalesced, is_created, is_file, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/REBASE_HEAD.lock", inode=24374952, flags=10300, id=42161493): is_coalesced, is_created, is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/packed-refs.lock", inode=24374953, flags=10300, id=42161496): is_coalesced, is_created, is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/author-script.lock", inode=24374954, flags=11900, id=42161505): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/author-script", inode=24374954, flags=10800, id=42161506): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock", inode=24374955, flags=10100, id=42161509): is_created, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/26/e07ac3efbe37494f0d8db4bcac205bf9ab6c6b", inode=24374788, flags=110400, id=42161512): is_file, is_hardlink, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/0c/56f045d196ea56828598c6b0f22309109f677e", inode=24374780, flags=110400, id=42161515): is_file, is_hardlink, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/52/15104984c2b59d96bdb6212891c39b1cd6ee71", inode=24374776, flags=110400, id=42161518): is_file, is_hardlink, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/10/13e200fbb5740eacb9426a3813c9befbd8c518", inode=24374957, flags=110100, id=42161530): is_created, is_file, is_hardlink
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/10", inode=24374956, flags=20500, id=42161533): is_created, is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/10/tmp_obj_WGJeDV", inode=24374957, flags=111300, id=42161536): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/1a/71788c2fe05442c145dff87260798963c540a2", inode=24374961, flags=110100, id=42161548): is_created, is_file, is_hardlink
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/d6/e0e7c320fcd0528a3f38b11de69cd7bf907a00', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/d6', is_directory=True>
+DEBUG:fsevents:queue_event <DirCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/d6', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/d6', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/d6/tmp_obj_0B2EPe', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/d6/tmp_obj_0B2EPe', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/d6', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/logs/HEAD', is_directory=False>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/HEAD.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/HEAD.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/HEAD", inode=24374946, flags=10800, id=42161427)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/HEAD.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/HEAD', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/HEAD', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/CHERRY_PICK_HEAD', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/CHERRY_PICK_HEAD.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/CHERRY_PICK_HEAD.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/packed-refs.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/packed-refs.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/MERGE_MSG', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/rewritten-list', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/rewritten-list', is_directory=False>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/rewritten-pending', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/rewritten-pending', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/rewritten-pending', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo", inode=24374951, flags=10800, id=42161468)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/git-rebase-todo', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/done', is_directory=False>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/msgnum', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/author-script', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/AUTO_MERGE', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/AUTO_MERGE', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/REBASE_HEAD.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/REBASE_HEAD.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/packed-refs.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/packed-refs.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/author-script.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/author-script.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/author-script", inode=24374954, flags=10800, id=42161506)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/author-script.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/author-script', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/26/e07ac3efbe37494f0d8db4bcac205bf9ab6c6b', is_directory=False>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/0c/56f045d196ea56828598c6b0f22309109f677e', is_directory=False>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/52/15104984c2b59d96bdb6212891c39b1cd6ee71', is_directory=False>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/10/13e200fbb5740eacb9426a3813c9befbd8c518', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/10', is_directory=True>
+DEBUG:fsevents:queue_event <DirCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/10', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/10', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/10/tmp_obj_WGJeDV', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/10/tmp_obj_WGJeDV', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/10', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/1a/71788c2fe05442c145dff87260798963c540a2', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/1a', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/1a", inode=24374960, flags=20500, id=42161551): is_created, is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/1a/tmp_obj_B2KLNa", inode=24374961, flags=111300, id=42161554): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/a2/4f8d1642639a5950ff14335ab794109543906f", inode=24374965, flags=110100, id=42161566): is_created, is_file, is_hardlink
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/a2", inode=24374964, flags=20500, id=42161569): is_created, is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/objects/a2/tmp_obj_J5BO1t", inode=24374965, flags=111300, id=42161572): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/static/images/B330224B-2129-40DD-8C28-062B1B221BF7.jpeg", inode=24374909, flags=11300, id=42161575): is_coalesced, is_created, is_file, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/templates/skills.html", inode=24374913, flags=11300, id=42161578): is_coalesced, is_created, is_file, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/main.py", inode=24374905, flags=11300, id=42161581): is_coalesced, is_created, is_file, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/main.py", inode=24374968, flags=11100, id=42161587): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/static/css/style.css", inode=24374908, flags=11300, id=42161590): is_coalesced, is_created, is_file, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/static/css/style.css", inode=24374969, flags=11100, id=42161596): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/templates/about.html", inode=24374910, flags=11300, id=42161599): is_coalesced, is_created, is_file, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/templates/about.html", inode=24374970, flags=11100, id=42161605): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/templates/contact.html", inode=24374911, flags=11300, id=42161608): is_coalesced, is_created, is_file, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/templates/contact.html", inode=24374971, flags=11100, id=42161614): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/templates/navbar.html", inode=24374912, flags=11300, id=42161617): is_coalesced, is_created, is_file, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/templates/navbar.html", inode=24374972, flags=11100, id=42161623): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/AUTO_MERGE", inode=24374973, flags=11100, id=42161629): is_created, is_file, is_modified
+DEBUG:fsevents:queue_event <DirCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/1a', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/1a', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/1a/tmp_obj_B2KLNa', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/1a/tmp_obj_B2KLNa', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/1a', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/a2/4f8d1642639a5950ff14335ab794109543906f', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/a2', is_directory=True>
+DEBUG:fsevents:queue_event <DirCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/a2', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/a2', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/a2/tmp_obj_J5BO1t', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/a2/tmp_obj_J5BO1t', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/objects/a2', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/static/images/B330224B-2129-40DD-8C28-062B1B221BF7.jpeg', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/static/images/B330224B-2129-40DD-8C28-062B1B221BF7.jpeg', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/static/images', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/skills.html', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/skills.html', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/main.py', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/main.py', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio', is_directory=True>
+INFO:werkzeug: * Detected change in '/Users/madhurigorantla/github/Flask-portfolio/main.py', reloading
+INFO:werkzeug: * Detected change in '/Users/madhurigorantla/github/Flask-portfolio/main.py', reloading
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/main.py', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio', is_directory=True>
+INFO:werkzeug: * Detected change in '/Users/madhurigorantla/github/Flask-portfolio/main.py', reloading
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/main.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/madhurigorantla/github/Flask-portfolio/main.py', reloading
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/static/css/style.css', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/static/css/style.css', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/static/css', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/static/css/style.css', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/static/css', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/static/css/style.css', is_directory=False>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/about.html', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/about.html', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/about.html', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/about.html', is_directory=False>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/contact.html', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/contact.html', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/contact.html', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/contact.html', is_directory=False>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/navbar.html', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/navbar.html', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/navbar.html', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/templates/navbar.html', is_directory=False>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/AUTO_MERGE', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/AUTO_MERGE', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock", inode=24374955, flags=11900, id=42161638): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374955, flags=10800, id=42161639): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374926, flags=10800, id=42161640): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/MERGE_MSG.lock", inode=24374974, flags=11900, id=42161649): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/MERGE_MSG", inode=24374974, flags=10800, id=42161650): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/CHERRY_PICK_HEAD.lock", inode=24374975, flags=11900, id=42161659): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/CHERRY_PICK_HEAD", inode=24374975, flags=10a00, id=42161669): is_coalesced, is_file, is_removed, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/CHERRY_PICK_HEAD.lock", inode=24374976, flags=10300, id=42161672): is_coalesced, is_created, is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/packed-refs.lock", inode=24374977, flags=10300, id=42161675): is_coalesced, is_created, is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/stopped-sha.lock", inode=24374978, flags=11900, id=42161684): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/stopped-sha", inode=24374978, flags=10800, id=42161685): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/REBASE_HEAD.lock", inode=24374979, flags=11900, id=42161694): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/REBASE_HEAD", inode=24374979, flags=10800, id=42161695): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/patch", inode=24374980, flags=11100, id=42161701): is_created, is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/message.lock", inode=24374981, flags=11900, id=42161710): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/message", inode=24374981, flags=10800, id=42161711): is_file, is_renamed
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/index", inode=24374955, flags=10800, id=42161639)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/index', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/MERGE_MSG.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/MERGE_MSG.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/MERGE_MSG", inode=24374974, flags=10800, id=42161650)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/MERGE_MSG.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/MERGE_MSG', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/CHERRY_PICK_HEAD.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/CHERRY_PICK_HEAD.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/CHERRY_PICK_HEAD", inode=24374975, flags=10a00, id=42161669)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/CHERRY_PICK_HEAD.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/CHERRY_PICK_HEAD', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/CHERRY_PICK_HEAD', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/CHERRY_PICK_HEAD.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/CHERRY_PICK_HEAD.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/packed-refs.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/packed-refs.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/stopped-sha.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/stopped-sha.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/stopped-sha", inode=24374978, flags=10800, id=42161685)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/stopped-sha.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/stopped-sha', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/REBASE_HEAD.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/REBASE_HEAD.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/REBASE_HEAD", inode=24374979, flags=10800, id=42161695)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/REBASE_HEAD.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/REBASE_HEAD', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/patch', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/patch', is_directory=False>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/message.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/message.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/message", inode=24374981, flags=10800, id=42161711)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/message.lock', dest_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge/message', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/madhurigorantla/github/Flask-portfolio/.git/rebase-merge', is_directory=True>
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+>>>>>>> d2eff235 (overtime changes)
