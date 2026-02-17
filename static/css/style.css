@@ -128,6 +128,13 @@ table.center {
 .about-dark-bg .social-icons a:hover {
     color: #4caf50 !important; /* Optional: highlight on hover */
 }
+
+/* Ensure FontAwesome icon elements inside dark sections are white
+   (overrides the global .fab color which is set to black elsewhere) */
+.about-dark-bg .social-icons i,
+.about-dark-bg .social-icons .fab {
+    color: #ffffff !important;
+}
   
   /* .text-left {
     padding-left: 16%;
