@@ -160,7 +160,13 @@ table.center {
 
 /* extra specificity for contact page icons and wrap container */
 .about-dark-bg .container-fluid .social-icons a i {
-    color: #ffffff !important;
+    color: #ff0000 !important; /* debug: force red icons */
+}
+
+/* container explicitly contrasted for debugging */
+.about-dark-bg .container-fluid .social-icons {
+    background-color: #555 !important;
+    padding: 10px;
 }
 
 /* give the social icon container a faint background so they're always visible */
