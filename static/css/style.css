@@ -71,6 +71,17 @@ ul {
     background-color: black;
 }
 
+/* make navbar background match page body color */
+.navbar-custom {
+    background-color: #1d2255 !important;
+}
+
+/* ensure links remain readable */
+.navbar-custom .navbar-nav a,
+.navbar-custom .navbar-brand {
+    color: #ffffff !important;
+}
+
 /* social media icons styling */
 .social-icons {
     font-size: 36px;
