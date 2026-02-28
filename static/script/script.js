@@ -1,12 +1,16 @@
-// add class navbarDark on navbar scroll
+// dynamic navbar color based on current section
 const header = document.querySelector('.navbar');
+const sections = document.querySelectorAll('section[data-navcolor]');
 
-window.onscroll = function() {
-    var top = window.scrollY;
-    if(top =200) {
-        header.classList.add('navbarDark');
-    }
-    else {
-        header.classList.remove('navbarDark');
-    }
-}
+window.addEventListener('scroll', () => {
+    let scrollPos = window.scrollY + header.offsetHeight + 5; // add a small buffer
+    let color = '#1d2255'; // default page color
+
+    sections.forEach(sec => {
+        if (scrollPos >= sec.offsetTop && scrollPos < sec.offsetTop + sec.offsetHeight) {
+            color = sec.getAttribute('data-navcolor') || color;
+        }
+    });
+
+    header.style.backgroundColor = color;
+});
