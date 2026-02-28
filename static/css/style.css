@@ -157,6 +157,18 @@ table.center {
 .about-dark-bg .social-icons .fab {
     color: #ffffff !important;
 }
+
+/* extra specificity for contact page icons and wrap container */
+.about-dark-bg .container-fluid .social-icons a i {
+    color: #ffffff !important;
+}
+
+/* give the social icon container a faint background so they're always visible */
+.about-dark-bg .container-fluid .social-icons {
+    background-color: rgba(0,0,0,0.2);
+    padding: 10px 0;
+    text-align: center;
+}
   
   /* .text-left {
     padding-left: 16%;
