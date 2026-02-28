@@ -2,7 +2,7 @@
 const header = document.querySelector('.navbar');
 const sections = document.querySelectorAll('section[data-navcolor]');
 
-window.addEventListener('scroll', () => {
+function updateNavbarColor() {
     let scrollPos = window.scrollY + header.offsetHeight + 5; // add a small buffer
     let color = '#1d2255'; // default page color
 
@@ -13,4 +13,8 @@ window.addEventListener('scroll', () => {
     });
 
     header.style.backgroundColor = color;
-});
+}
+
+window.addEventListener('scroll', updateNavbarColor);
+window.addEventListener('load', updateNavbarColor);
+
