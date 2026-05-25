@@ -18,11 +18,11 @@ jobs:
       - name: update the user to root user
         run: |
           sudo su
-      - name: pull latest changes to server
-        working-directory: /home/ubuntu/Flask-portfolio
-        run: |
-          git fetch origin
-          git reset --hard origin/main
+    #   - name: pull latest changes to server
+    #     working-directory: /home/ubuntu/Flask-portfolio
+    #     run: |
+    #       git fetch origin
+    #       git reset --hard origin/main
       - name: restart the server
         run: |
             echo "Restarting the server..."
