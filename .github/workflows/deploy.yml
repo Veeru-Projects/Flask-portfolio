@@ -26,9 +26,9 @@ jobs:
       - name: restart the server
         run: |
             echo "Restarting the server..."
-            systemctl restart portfolio
+            sudo systemctl restart portfolio
       - name: check the status of the service
         run: |
             echo "Checking the status of the service..."
-            systemctl status portfolio
+            sudo systemctl status portfolio
 
