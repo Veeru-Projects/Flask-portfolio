@@ -12,74 +12,278 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <!-- font awesome -->
   <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
     {% extends "navbar.html" %}
     {% block content %}
     <style>
-        /* Hide the specified section on the second page */
-        #home {
-            display: none;
-        }
+        #home { display: none; }
     </style>
+
     <div class="about-dark-bg" data-navcolor="#222">
     <section id="about">
-        <div class="container mt-10 pt-2">
-            <div class="row">
-                <h1 class="text-left">About Me:</h1>
-                <div class="col-lg-12">
-                <div class="row mt-3">
-                <p>
-                    Greetings! I'm a seasoned DevOps engineer &#128104;&#8205;&#128187; with a rich and dynamic seven-year journey in the ever-evolving landscape of technology. My professional expedition has equipped me with a robust skill set and an in-depth understanding of SDLC using DevOps. Throughout my career, I've successfully implemented and optimized CI/CD pipelines, orchestrated scalable infrastructure, and enhanced system reliability, all while adhering to best practices. My passion for embracing cutting-edge technologies has been a driving force behind my commitment to continuous learning, ensuring that I stay at the forefront of industry trends. As a dedicated problem solver and collaborator, I thrive in environments where innovation and efficiency converge. I am excited to share my experiences, contribute to transformative projects, and further elevate the realm of DevOps excellence.
-                    Throughout my journey, I've had the opportunity to work with notable clients such as Comcast and CapitalOne, gaining exposure to a diverse set of tools and technologies. My comprehensive skill set underscores my commitment to excellence in navigating the complexities of DevOps engineering.
-                </p>
-                
-              </div>
-                    <b>
-                    <h1 class="text-left">Skills:</h1>
-                    <table class="center">
-                        <tr>
-                          <th>Techstack</th>
-                          <th>Tools/Language</th>
-                        </tr>
-                        <tr>
-                          <td>Cloud</td>
-                          <td>AWS, OpenStack, Azure, GCP</td>
-                        </tr>
-                        <tr>
-                          <td>Languages</td>
-                          <td>Python, Shell, javascript</td>
-                        </tr>
-                        <tr>
-                          <td>Database</td>
-                          <td>My-SQL, Postgress, Mongo, Cassandra, sqlite, Redis</td>
-                        </tr>
-                        <tr>
-                          <td>Containerization</td>
-                          <td>Docker, Kubernetes, Docker-compose, Rancher</td>
-                        </tr>
-                        <tr>
-                          <td>Monitoring and Observability</td>
-                          <td>ELK, Splunk, Datadog, Newrelic, Grafana, Prometheus</td>
-                        </tr>
-                        <tr>
-                          <td>DevOps Tools</td>
-                          <td>Terraform, Ansible, Jira, Rally, Jenkins, Concourse, Drone, Ant, Maven, SonarQube, Whitesource, Checkmarx, etc.</td>
-                        </tr>
-                      </table>
-                    </b>
-                <br>
-                <h1 class="text-left">Hobbies:</h1>
-                <ol class="b">
-                    <li>Building Apps</li>
-                    <li>Reading</li>
-                    <li>Photography</li>
-                    <li>Travel</li>
-                </ol> 
-              </br>  
+        <div class="container about-container">
+
+            <!-- ── HERO STRIP ── -->
+            <div class="about-hero">
+                <div class="about-hero-left">
+                    <p class="about-role-label">DevOps Engineer</p>
+                    <h1 class="about-name">Veerender<br>Mothukuri</h1>
+                    <p class="about-bio">
+                        Seven years navigating the ever-evolving landscape of technology — from
+                        <strong>CI/CD pipelines</strong> and <strong>scalable infrastructure</strong> to
+                        <strong>system reliability</strong> and cutting-edge DevOps practices.
+                        Worked with notable clients including <strong>Comcast</strong> and
+                        <strong>Capital One</strong>, bringing a commitment to continuous learning
+                        and excellence at every stage of the SDLC.
+                    </p>
+                    <div class="about-exp-badge">
+                        <i class="fas fa-briefcase"></i>
+                        <span><strong>7 years</strong> of industry experience</span>
+                    </div>
+                </div>
+                <div class="about-avatar">VM</div>
+            </div>
+
+            <!-- ── SKILLS ── -->
+            <p class="about-section-label">Skills &amp; tech stack</p>
+            <div class="about-skills-grid">
+
+                <div class="about-skill-card">
+                    <div class="about-skill-head">
+                        <div class="about-skill-icon skill-icon-blue"><i class="fas fa-cloud"></i></div>
+                        <span class="about-skill-cat">Cloud</span>
+                    </div>
+                    <div class="about-tags">
+                        <span class="about-tag">AWS</span>
+                        <span class="about-tag">Azure</span>
+                        <span class="about-tag">GCP</span>
+                        <span class="about-tag">OpenStack</span>
+                    </div>
+                </div>
+
+                <div class="about-skill-card">
+                    <div class="about-skill-head">
+                        <div class="about-skill-icon skill-icon-green"><i class="fas fa-code"></i></div>
+                        <span class="about-skill-cat">Languages</span>
+                    </div>
+                    <div class="about-tags">
+                        <span class="about-tag">Python</span>
+                        <span class="about-tag">Shell</span>
+                        <span class="about-tag">JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="about-skill-card">
+                    <div class="about-skill-head">
+                        <div class="about-skill-icon skill-icon-amber"><i class="fas fa-database"></i></div>
+                        <span class="about-skill-cat">Database</span>
+                    </div>
+                    <div class="about-tags">
+                        <span class="about-tag">MySQL</span>
+                        <span class="about-tag">Postgres</span>
+                        <span class="about-tag">MongoDB</span>
+                        <span class="about-tag">Cassandra</span>
+                        <span class="about-tag">Redis</span>
+                        <span class="about-tag">SQLite</span>
+                    </div>
+                </div>
+
+                <div class="about-skill-card">
+                    <div class="about-skill-head">
+                        <div class="about-skill-icon skill-icon-blue"><i class="fab fa-docker"></i></div>
+                        <span class="about-skill-cat">Containers</span>
+                    </div>
+                    <div class="about-tags">
+                        <span class="about-tag">Docker</span>
+                        <span class="about-tag">Kubernetes</span>
+                        <span class="about-tag">Compose</span>
+                        <span class="about-tag">Rancher</span>
+                    </div>
+                </div>
+
+                <div class="about-skill-card">
+                    <div class="about-skill-head">
+                        <div class="about-skill-icon skill-icon-red"><i class="fas fa-chart-line"></i></div>
+                        <span class="about-skill-cat">Monitoring</span>
+                    </div>
+                    <div class="about-tags">
+                        <span class="about-tag">ELK</span>
+                        <span class="about-tag">Splunk</span>
+                        <span class="about-tag">Datadog</span>
+                        <span class="about-tag">Grafana</span>
+                        <span class="about-tag">Prometheus</span>
+                        <span class="about-tag">New Relic</span>
+                    </div>
+                </div>
+
+                <div class="about-skill-card">
+                    <div class="about-skill-head">
+                        <div class="about-skill-icon skill-icon-gray"><i class="fas fa-cogs"></i></div>
+                        <span class="about-skill-cat">DevOps Tools</span>
+                    </div>
+                    <div class="about-tags">
+                        <span class="about-tag">Terraform</span>
+                        <span class="about-tag">Ansible</span>
+                        <span class="about-tag">Jenkins</span>
+                        <span class="about-tag">SonarQube</span>
+                        <span class="about-tag">Jira</span>
+                        <span class="about-tag">Maven</span>
+                    </div>
+                </div>
+
+                <div class="about-skill-card about-skill-card--wide">
+                    <div class="about-skill-head">
+                        <div class="about-skill-icon skill-icon-purple"><i class="fas fa-brain"></i></div>
+                        <span class="about-skill-cat">AI / ML &amp; MLOps</span>
+                    </div>
+                    <div class="about-tags-grouped">
+                        <div class="about-tag-group">
+                            <span class="about-tag-group-label">Frameworks</span>
+                            <div class="about-tags">
+                                <span class="about-tag">TensorFlow</span>
+                                <span class="about-tag">PyTorch</span>
+                                <span class="about-tag">scikit-learn</span>
+                                <span class="about-tag">Hugging Face</span>
+                            </div>
+                        </div>
+                        <div class="about-tag-group">
+                            <span class="about-tag-group-label">MLOps pipelines</span>
+                            <div class="about-tags">
+                                <span class="about-tag">Kubeflow</span>
+                                <span class="about-tag">Tekton</span>
+                                <span class="about-tag">MLflow</span>
+                            </div>
+                        </div>
+                        <div class="about-tag-group">
+                            <span class="about-tag-group-label">AWS AI / GenAI</span>
+                            <div class="about-tags">
+                                <span class="about-tag">SageMaker</span>
+                                <span class="about-tag">Bedrock Agents</span>
+                                <span class="about-tag">AWS Lambda AI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- ── PROJECTS ── -->
+            <p class="about-section-label" style="margin-top:2.5rem;">Featured projects</p>
+            <div class="about-projects-grid">
+
+                <div class="about-project-card">
+                    <div class="about-project-header">
+                        <div class="about-project-icon skill-icon-red">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div>
+                            <h3 class="about-project-title">Automated Nginx 5xx Resolution Bot</h3>
+                            <p class="about-project-meta">Personal project &middot; 2023</p>
+                        </div>
+                    </div>
+                    <p class="about-project-desc">
+                        Built an intelligent bot to detect and auto-remediate 5xx errors in nginx logs
+                        in real time, reducing manual triage effort and improving application uptime SLAs.
+                    </p>
+                    <div class="about-project-footer">
+                        <span class="about-section-label" style="margin:0;">Stack</span>
+                        <div class="about-tags" style="margin-top:8px;">
+                            <span class="about-tag about-tag-accent">Python</span>
+                            <span class="about-tag about-tag-accent">Bash</span>
+                            <span class="about-tag about-tag-accent">Nginx log parsing</span>
+                            <span class="about-tag about-tag-accent">Alerting webhooks</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-project-card">
+                    <div class="about-project-header">
+                        <div class="about-project-icon skill-icon-blue">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div>
+                            <h3 class="about-project-title">LinkedIn DevOps Job Market Analyzer</h3>
+                            <p class="about-project-meta">Personal project &middot; 2024</p>
+                        </div>
+                    </div>
+                    <p class="about-project-desc">
+                        Designed a data pipeline that analyzes DevOps job postings from LinkedIn on a
+                        daily/weekly/monthly cadence and visualizes hiring trends. Used to track
+                        in-demand skills, salary bands, and location trends.
+                    </p>
+                    <div class="about-project-footer">
+                        <span class="about-section-label" style="margin:0;">Stack</span>
+                        <div class="about-tags" style="margin-top:8px;">
+                            <span class="about-tag about-tag-accent">Python</span>
+                            <span class="about-tag about-tag-accent">Plotly Dash</span>
+                            <span class="about-tag about-tag-accent">Pandas</span>
+                            <span class="about-tag about-tag-accent">Data scraping</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- ── CERTIFICATIONS ── -->
+            <p class="about-section-label" style="margin-top:2.5rem;">Certifications</p>
+            <div class="about-certs-grid">
+
+                <!-- ✏️ Copy and paste one block below per certification when ready -->
+
+                <!-- EXAMPLE BLOCK (delete the comment markers to activate):
+                <div class="about-cert-card">
+                    <div class="about-cert-icon skill-icon-amber">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="about-cert-body">
+                        <p class="about-cert-title">AWS Certified DevOps Engineer – Professional</p>
+                        <p class="about-cert-issuer">Amazon Web Services</p>
+                        <p class="about-cert-date">Issued Jan 2024 &middot; Expires Jan 2027</p>
+                    </div>
+                    <span class="about-cert-badge">AWS</span>
+                </div>
+                -->
+
+                <!-- Empty state shown until certs are added -->
+                <div class="about-certs-empty">
+                    <i class="fas fa-medal"></i>
+                    <p>Certifications coming soon</p>
+                </div>
+
+            </div>
+
+            <!-- ── CLIENTS ── -->
+            <p class="about-section-label" style="margin-top:2.5rem;">Notable clients</p>
+            <div class="about-clients-row">
+                <div class="about-client-badge">
+                    <div class="about-client-dot" style="background:#6B3FA0;"></div>
+                    <div>
+                        <p class="about-client-name">Comcast</p>
+                        <p class="about-client-desc">Media &amp; telecommunications</p>
+                    </div>
+                </div>
+                <div class="about-client-badge">
+                    <div class="about-client-dot" style="background:#004977;"></div>
+                    <div>
+                        <p class="about-client-name">Capital One</p>
+                        <p class="about-client-desc">Financial services</p>
+                    </div>
                 </div>
             </div>
+
+            <!-- ── HOBBIES ── -->
+            <p class="about-section-label" style="margin-top:2.5rem;">Outside of work</p>
+            <div class="about-hobbies-row">
+                <div class="about-hobby"><i class="fas fa-laptop-code"></i> Building apps</div>
+                <div class="about-hobby"><i class="fas fa-book"></i> Reading</div>
+                <div class="about-hobby"><i class="fas fa-camera"></i> Photography</div>
+                <div class="about-hobby"><i class="fas fa-plane"></i> Travel</div>
+            </div>
+
         </div>
     </section>
     </div>

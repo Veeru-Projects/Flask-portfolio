@@ -40,16 +40,16 @@ def contact():
     return render_template('contact.html')
 
 
-@app.route('/submit', methods=['POST'])
-def submit():
+@app.route('/Submit', methods=['POST'])
+def Submit():
     if request.method == 'POST':
         # Get form data
-        recipient_email = "xxxxxxxx"
+        recipient_email = "XXXXXXXXXX"
         print(recipient_email)
         # Your email configuration
-        sender_email = "xxxxxxx"
+        sender_email = "XXXXXXXX"
         print(sender_email)
-        sender_password = "xxxxxxxxx"
+        sender_password = "XXXXXXXXXX"
         print(sender_password)
         subject = request.form['subject']
         form_data = {
@@ -81,6 +81,6 @@ def submit():
 
 if __name__ == '__main__':
     # context = ('/etc/letsencrypt/live/veerender-mothukuri.com/fullchain.pem', '/etc/letsencrypt/live/veerender-mothukuri.com/privkey.pem')
-    # import logging
-    # logging.basicConfig(filename='error.log',level=logging.DEBUG)
+    import logging
+    logging.basicConfig(filename='error.log',level=logging.DEBUG)
     app.run(host='0.0.0.0', port='8000', debug=True)
